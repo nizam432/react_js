@@ -7,7 +7,14 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <h1>This is my first react js project. I'm hard working to learn react js an 123</h1>
+    <div className='card'>
+      <h1>This is my first react js project. I'm hard working to learn react js an 123</h1>
+      <p>
+        This is my first react js project. I'm hard working to learn react js an 123.This is my first react js project. I'm hard working to learn react js an 123.
+        This is my first react js project. I'm hard working to learn react js an 123.This is my first react js project. I'm hard working to learn react js an 123.
+        This is my first react js project. I'm hard working to learn react js an 123.This is my first react js project. I'm hard working to learn react js an 123.
+      </p>
+    </div>
 
   </React.StrictMode>
 );
