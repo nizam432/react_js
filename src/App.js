@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       Hello world. 123456
-      <Card />
+      <Card textTitle="Test title" textDescription="This is test description" />
       <Card />
       <Card />
       <Card />
