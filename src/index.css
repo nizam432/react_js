@@ -12,7 +12,7 @@ code {
     monospace;
 }
 
-.card{
+.Card{
   background: #ddd;
   color:#000;
   padding: 10px;
@@ -20,13 +20,13 @@ code {
   margin: 10px;
 }
 
-.card h1{
+.Card h1{
   font-size: 14px;
   font-weight: bold;
 }
 
 
-.card p{
+.Card p{
   font-size: 13px;
   text-align: justify;
 }

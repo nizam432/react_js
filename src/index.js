@@ -1,21 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-//import App from './App';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+//import Card from './components/Card';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <div className='card'>
-      <h1>This is my first react js project. I'm hard working to learn react js an 123</h1>
-      <p>
-       12345 This is my first react js project. I'm hard working to learn react js an 123.This is my first react js project. I'm hard working to learn react js an 123.
-        This is my first react js project. I'm hard working to learn react js an 123.This is my first react js project. I'm hard working to learn react js an 123.
-        This is my first react js project. I'm hard working to learn react js an 123.This is my first react js project. I'm hard working to learn react js an 123.
-      </p>
-    </div>
-
+  <React.StrictMode>  
+    <App />
   </React.StrictMode>
 );
 
@@ -23,3 +15,4 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+ 
