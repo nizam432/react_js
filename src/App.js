@@ -2,12 +2,15 @@ import React from 'react';
 //import logo from './logo.svg';
 import './App.css';
 //import card1 from './components/Card1';
-import Card1 from './components/Card1';
+//import Card1 from './components/Card1';
+import Card2 from './components/Card2';
+import ReactBootstrap from './components/ReactBootstrap/ReactBootstrap';
+
 //import Card from './components/Card';
-import List from './components/UniqueList/List';
+//import List from './components/UniqueList/List';
 //import Data from './data.json';
 
-const users =[
+/*const users =[
   {
     fullName:"Nizam Uddin0",
     age:32,
@@ -33,13 +36,18 @@ const users =[
     ]
   }
 ];
+*/
+
 
 function App() {
+  return(<div>
+    <ReactBootstrap />
+  </div>) 
+}
 
-  return <div>
-    <Card1 name="Card1" desc="This test description" />
-  </div>
+export default App;
 
+  //<Card2 name="Card2" />
  // let items=[];
  // for(let i=0;i<Data.length;i++){
  //   item.push(<Card textTitle={Data[i].title} textDescription={Data[i].desc} />);
@@ -62,6 +70,6 @@ function App() {
        }
     </div>
   );*/
-}
 
-export default App;
+
+
