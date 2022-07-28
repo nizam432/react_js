@@ -1,11 +1,11 @@
 import React from 'react'
-import State from './components/State'
-import ConditionalRendering from './ConditionalRendering/index'
+import EventHandler from './components/EventHandler/index'
+
 
 export default function App() {
   return (
     <div>
-      <ConditionalRendering />
+      <EventHandler />
     </div>
   )
 }
