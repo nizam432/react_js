@@ -10,14 +10,14 @@ class EventHandler extends Component {
   }
   handleOnChange=(e)=>{
       this.setState({
-        changeValue:this.target.value, 
+        changeValue:e.target.value, 
       })
       
   }
   render() {
     return (
       <div>
-        <input type="text" onChange={this.handleOnChange} />
+  <input type="text" onChange={this.handleOnChange}  />
         <p>{this.state.changeValue}</p>
       </div>
     )

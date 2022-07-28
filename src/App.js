@@ -1,11 +1,12 @@
 import React from 'react'
-import EventHandler from './components/EventHandler/index'
+import EventBinding from './components/EventBinding'
+//import EventHandler from './components/EventHandler/index'
 
 
 export default function App() {
   return (
     <div>
-      <EventHandler />
+      <EventBinding />
     </div>
   )
 }
