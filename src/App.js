@@ -1,15 +1,9 @@
 import React from 'react'
-//import Form from './components/Form/form'
-import Home from './components/BottomToTop/home'
-//import EventBinding from './components/EventBinding'
-//import EventHandler from './components/EventHandler/index'
+import Home from './components/project-1/Home'
 
 
 export default function App() {
 
- // const handleChildData = (childData) => { 
-  //    console.log(childData); 
- // }
 
   return ( 
     <div>
