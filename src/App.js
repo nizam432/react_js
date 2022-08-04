@@ -1,13 +1,11 @@
 import React from 'react'
-import Home from './components/project-1/Home'
-
+import Faq from './components/Faq/Faq'
 
 export default function App() {
 
-
   return ( 
     <div>
-       <Home />
+       <Faq />
     </div>
   )
 }
