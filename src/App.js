@@ -1,5 +1,6 @@
 import React from 'react'
-import Home from './components/project-1/Home'
+
+import Toggle from './components/toggle/Toggle'
 
 
 export default function App() {
@@ -7,7 +8,7 @@ export default function App() {
 
   return ( 
     <div>
-       <Home />
+       <Toggle />
     </div>
   )
 }
