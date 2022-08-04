@@ -1,14 +1,11 @@
 import React from 'react'
-
-import Toggle from './components/toggle/Toggle'
-
+import Faq from './components/Faq/Faq'
 
 export default function App() {
 
-
   return ( 
     <div>
-       <Toggle />
+       <Faq />
     </div>
   )
 }
