@@ -1,20 +1,24 @@
 import React from 'react'
 
-const Home = () => {
+const AboutUs = () => {
   return (
     <div>
-        <h3>Home Page</h3>
-        <p> 
+        <h3>About Us Page</h3>
+        <p>
+        50  lorem50  lorem50  lorem50  lorem50  lorem50  lorem50  lorem50  lorem50 
         lorem50  lorem50  lorem50  lorem50  lorem50  lorem50  lorem50  lorem50  lorem50 
+        lorem50  lorem50  lorem50  lorem50  lorem50  lorem50  lorem50  lorem50  lorem50 
+        lorem50  lorem50  lorem50  lorem50  lorem50  lorem50  lorem50  lorem50  lorem50 
+        lorem50  lorem50  lorem50  lorem50  lorem50  lorem50  lorem50  lorem50  lorem50 
+            lorem50  lorem50  lorem50  lorem50  lorem50  lorem50  lorem50  lorem50  lorem50 50  lorem50  lorem50  lorem50  lorem50  lorem50  lorem50  lorem50  lorem50 
         lorem50  lorem50  lorem50  lorem50  lorem50  lorem50  lorem50  lorem50  lorem50 
         lorem50  lorem50  lorem50  lorem50  lorem50  lorem50  lorem50  lorem50  lorem50 
         lorem50  lorem50  lorem50  lorem50  lorem50  lorem50  lorem50  lorem50  lorem50 
         lorem50  lorem50  lorem50  lorem50  lorem50  lorem50  lorem50  lorem50  lorem50 
             lorem50  lorem50  lorem50  lorem50  lorem50  lorem50  lorem50  lorem50  lorem50 
-            
         </p>
     </div>
   )
 }
 
-export default Home
+export default AboutUs
