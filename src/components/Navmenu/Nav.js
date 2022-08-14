@@ -9,6 +9,8 @@ const Nav = () => {
             <NavLink to={'/contact'}>Contact</NavLink>
             <NavLink to={'about_us'}>About us</NavLink>
             <NavLink to={'blogs'}>Blogs</NavLink>
+            <NavLink to={'/get-api'}>Get Api</NavLink>
+            
         </nav>
     </div>
   )
